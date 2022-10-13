@@ -18,9 +18,7 @@
   },
   "homepage": "https://github.com/drsmachado01/modasos#readme",
   "dependencies": {
-    "express":"*",
-    "body-parser":"*",
-    "bcrypt": "^0.8.5"
+    "express":"*"
  },
   "engines": {
     "node": "18.x"
