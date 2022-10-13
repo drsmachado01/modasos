@@ -1,0 +1,220 @@
+body {
+    font-size: 1rem;
+    padding: 1.5rem;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(96, 201, 96);
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+p {
+    text-align:center;
+    margin: 0;
+}
+
+header div {
+    padding: 1rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logoimg {
+    position: inherit;
+    width: 15rem;
+    cursor: pointer;
+}
+
+.imagenes_peq {
+    height: 1rem;
+    width: 1rem;
+}
+
+.imagenes_med {
+    height: 2rem;
+    width: 2rem;
+    cursor: pointer;
+}
+
+.buscar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.informacion div {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.informacion div p{
+    color: white;
+}
+
+.bandera {
+    width: 2rem;
+    height: 2rem;
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
+
+.registro {
+    color: white;
+    text-align:center;
+}
+
+.carrito_compras{
+    height: 1.5rem;
+    width: 1.5rem;
+    cursor: pointer;
+}
+
+.contenedor_carrito {
+    border: solid 0.1rem black;
+    background-color: white;
+    margin-left: 0.5rem;
+}
+
+.cantidad {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    border-radius: 1.5rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    color: white;
+    margin-left: 0.5rem;
+}
+
+main {
+    margin-top: 12rem;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.productos {
+    margin: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 1rem;
+    grid-column-gap: 2rem;
+}
+
+.card {
+    box-sizing: content-box;
+    display: grid;
+    grid-template-rows: 5fr 1fr;
+    height: 100%;
+    justify-items: center;
+    align-items: center;
+}
+
+.card img {
+    object-fit: contain;
+    padding: 1rem;
+}
+
+hr {
+    border: 2px solid green;
+    border-radius: 5px;
+    background-color: green;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.como_funciona a {
+    color: black;
+}
+
+.contactanos div{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.redes_sociales div {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+}
+
+.redes_sociales div img {
+    padding: 0.25rem;
+}
+
+.registro {
+    color: black;
+}
+
+.registro_titulo {
+    background-color: gray;
+    color: white;
+    border: 1px solid black;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    font-weight: bolder;
+    margin-bottom: 1.5rem;
+}
+
+.registro_input {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 1rem;
+    grid-column-gap: 2rem;
+}
+
+.registro_submit {
+    margin-left: 70%;
+}
+
+.form-control{
+    border: black 0.1rem solid;
+}
+
+.button_quiero:hover {
+    background-color: gray;
+    font-weight: bolder;
+    color: white;
+}
+
+.registro_submit .input-group .form-control{
+    background-color: gray;
+    font-weight: bolder;
+    color: white;
+    border: black 0.1rem solid;
+}
